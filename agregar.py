@@ -26,8 +26,5 @@ def agregar_servicios():
     with open("photo-campus.json", "w") as file:
         json.dump(dato, file)
 
-    print("Servicio agregado correctamente")
-
-
 agregar_servicios()
 
