@@ -17,7 +17,6 @@ def agregar_servicios():
         "tipo_evento": evento,
         "duracion": duracion
     }
-
     with open("photo-campus.json", "r") as file:
         dato = json.load(file)
 
@@ -25,6 +24,7 @@ def agregar_servicios():
 
     with open("photo-campus.json", "w") as file:
         json.dump(dato, file)
+
 
 agregar_servicios()
 
