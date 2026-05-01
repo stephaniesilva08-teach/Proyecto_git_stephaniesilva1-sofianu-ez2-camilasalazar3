@@ -10,7 +10,7 @@ def editar_servicios():
     for servicio in servicios_fotografia:
             if servicio["codigo"] == codigo:
                 print("servicio encontrado")
-                servicio["fecha"] = input("Nueva fecha:")
+                servicio["duracion"] = input("duracion:")
                 servicio["precio"] = float(input("Nuevo precio:"))
                 codigo_encontrado=True
                 print("su servicio fue actualizado correctamente ")
