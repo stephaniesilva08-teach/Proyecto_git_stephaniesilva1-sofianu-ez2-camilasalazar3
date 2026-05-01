@@ -1,4 +1,4 @@
-opciones=int(input("ingrese la opcion que desea:\n 1.Registrar servivio.\n 2.Agregar nuevos servicios.\n 3.Eliminar servicios"))
+opciones=int(input("ingrese la opcion que desea:\n 1.Registrar servicio.\n 2.Agregar nuevos servicios.\n 3.Eliminar servicios"))
 match opciones:
     case 1:
         if opciones== 1:
