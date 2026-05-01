@@ -25,7 +25,7 @@ def eliminar_servicio():
 
     print("No se encontró un servicio con ese código.")
 
-
+eliminar_servicio()
 
 
     
