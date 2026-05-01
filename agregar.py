@@ -26,5 +26,3 @@ def agregar_servicios():
         json.dump(dato, file)
 
 
-agregar_servicios()
-
